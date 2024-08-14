@@ -1,0 +1,6 @@
+framework module Pods_Eryaz {
+  umbrella header "Pods-Eryaz-umbrella.h"
+
+  export *
+  module * { export * }
+}

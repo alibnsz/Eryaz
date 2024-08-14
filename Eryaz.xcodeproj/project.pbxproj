@@ -7,18 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		410FDA082C64FAE2006904D3 /* mapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 410FDA072C64FAE2006904D3 /* mapView.swift */; };
+		41442F102C60B736007D33AF /* SupportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41442F0F2C60B736007D33AF /* SupportView.swift */; };
 		414E14A42C58CE2A00580407 /* EryazApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414E14A32C58CE2A00580407 /* EryazApp.swift */; };
-		414E14A62C58CE2A00580407 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414E14A52C58CE2A00580407 /* ContentView.swift */; };
 		414E14A82C58CE2B00580407 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414E14A72C58CE2B00580407 /* Assets.xcassets */; };
 		414E14AB2C58CE2B00580407 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 414E14AA2C58CE2B00580407 /* Preview Assets.xcassets */; };
+		414E14B42C58CE7300580407 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414E14B32C58CE7300580407 /* Page.swift */; };
+		414E14B62C58D2A300580407 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414E14B52C58D2A300580407 /* IntroView.swift */; };
+		414E14B82C58D3CC00580407 /* MorphingSymbolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414E14B72C58D3CC00580407 /* MorphingSymbolView.swift */; };
+		4150933A2C63559B001803FE /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 415093392C63559B001803FE /* CustomButton.swift */; };
+		4150933C2C635DD2001803FE /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4150933B2C635DD2001803FE /* Color.swift */; };
+		4170FC112C65FA3E00079BDF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4170FC102C65FA3E00079BDF /* GoogleService-Info.plist */; };
+		417B3C212C5B9F3400D65767 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 417B3C202C5B9F3400D65767 /* DetailView.swift */; };
+		41BC8BD62C5BBAE200F21EDB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BC8BD52C5BBAE200F21EDB /* MenuView.swift */; };
+		41BC8BD82C5BBD0C00F21EDB /* PersonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BC8BD72C5BBD0C00F21EDB /* PersonView.swift */; };
+		41BCD0DB2C5A0CD80038E025 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BCD0DA2C5A0CD80038E025 /* HomeView.swift */; };
+		41C293792C623FB400A078D7 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C293782C623FB400A078D7 /* Model.swift */; };
+		41C2937B2C62410A00A078D7 /* DownloaderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C2937A2C62410A00A078D7 /* DownloaderClient.swift */; };
+		41C2937D2C6243CE00A078D7 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C2937C2C6243CE00A078D7 /* HomeViewModel.swift */; };
+		41E61C852C60A5FE00311861 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E61C842C60A5FE00311861 /* SignUpView.swift */; };
+		41EA221F2C5CB977005B9A84 /* UrlModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EA221E2C5CB977005B9A84 /* UrlModel.swift */; };
+		41EA22232C5CF825005B9A84 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EA22222C5CF825005B9A84 /* SignInView.swift */; };
+		41EA22252C5CF856005B9A84 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41EA22242C5CF856005B9A84 /* CustomTextField.swift */; };
+		41FB484D2C6625D100EB0CE2 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FB484C2C6625D100EB0CE2 /* ImagePicker.swift */; };
+		FA7449904C1ED8EB3CC43011 /* Pods_Eryaz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E2F281D6BBAF586308604A0 /* Pods_Eryaz.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E2F281D6BBAF586308604A0 /* Pods_Eryaz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eryaz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB25EA549EBEAC17CA4FAF1 /* Pods-Eryaz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eryaz.debug.xcconfig"; path = "Target Support Files/Pods-Eryaz/Pods-Eryaz.debug.xcconfig"; sourceTree = "<group>"; };
+		410FDA072C64FAE2006904D3 /* mapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapView.swift; sourceTree = "<group>"; };
+		41442F0F2C60B736007D33AF /* SupportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportView.swift; sourceTree = "<group>"; };
 		414E14A02C58CE2A00580407 /* Eryaz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eryaz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		414E14A32C58CE2A00580407 /* EryazApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EryazApp.swift; sourceTree = "<group>"; };
-		414E14A52C58CE2A00580407 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		414E14A72C58CE2B00580407 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		414E14AA2C58CE2B00580407 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		414E14B32C58CE7300580407 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		414E14B52C58D2A300580407 /* IntroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
+		414E14B72C58D3CC00580407 /* MorphingSymbolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorphingSymbolView.swift; sourceTree = "<group>"; };
+		415093392C63559B001803FE /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		4150933B2C635DD2001803FE /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		4170FC102C65FA3E00079BDF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		417B3C202C5B9F3400D65767 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		41BC8BD52C5BBAE200F21EDB /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		41BC8BD72C5BBD0C00F21EDB /* PersonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonView.swift; sourceTree = "<group>"; };
+		41BCD0DA2C5A0CD80038E025 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		41BCD0DD2C5A1E080038E025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		41C293782C623FB400A078D7 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		41C2937A2C62410A00A078D7 /* DownloaderClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloaderClient.swift; sourceTree = "<group>"; };
+		41C2937C2C6243CE00A078D7 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		41E61C842C60A5FE00311861 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		41EA221E2C5CB977005B9A84 /* UrlModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlModel.swift; sourceTree = "<group>"; };
+		41EA22222C5CF825005B9A84 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		41EA22242C5CF856005B9A84 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		41FB484C2C6625D100EB0CE2 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		4D3C674B5C40F22850B879A0 /* Pods-Eryaz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eryaz.release.xcconfig"; path = "Target Support Files/Pods-Eryaz/Pods-Eryaz.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,17 +69,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA7449904C1ED8EB3CC43011 /* Pods_Eryaz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41442F112C60C7F0007D33AF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				414E14A32C58CE2A00580407 /* EryazApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		414E14972C58CE2A00580407 = {
 			isa = PBXGroup;
 			children = (
 				414E14A22C58CE2A00580407 /* Eryaz */,
 				414E14A12C58CE2A00580407 /* Products */,
+				CA7F4776335B31980BEC9DE3 /* Pods */,
+				F4DB987BB9DA57C6E7DD0322 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,9 +105,14 @@
 		414E14A22C58CE2A00580407 /* Eryaz */ = {
 			isa = PBXGroup;
 			children = (
-				414E14A32C58CE2A00580407 /* EryazApp.swift */,
-				414E14A52C58CE2A00580407 /* ContentView.swift */,
+				414E14B12C58CE3100580407 /* Model */,
+				414E14B22C58CE3900580407 /* View */,
+				41C2937E2C62463800A078D7 /* ViewModel */,
+				41C293772C623F3300A078D7 /* Service */,
+				41442F112C60C7F0007D33AF /* App */,
 				414E14A72C58CE2B00580407 /* Assets.xcassets */,
+				41BCD0DD2C5A1E080038E025 /* Info.plist */,
+				4170FC102C65FA3E00079BDF /* GoogleService-Info.plist */,
 				414E14A92C58CE2B00580407 /* Preview Content */,
 			);
 			path = Eryaz;
@@ -67,6 +126,70 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		414E14B12C58CE3100580407 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				414E14B32C58CE7300580407 /* Page.swift */,
+				41EA221E2C5CB977005B9A84 /* UrlModel.swift */,
+				41C293782C623FB400A078D7 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		414E14B22C58CE3900580407 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				414E14B52C58D2A300580407 /* IntroView.swift */,
+				41EA22222C5CF825005B9A84 /* SignInView.swift */,
+				41E61C842C60A5FE00311861 /* SignUpView.swift */,
+				41BCD0DA2C5A0CD80038E025 /* HomeView.swift */,
+				417B3C202C5B9F3400D65767 /* DetailView.swift */,
+				41BC8BD52C5BBAE200F21EDB /* MenuView.swift */,
+				41442F0F2C60B736007D33AF /* SupportView.swift */,
+				41BC8BD72C5BBD0C00F21EDB /* PersonView.swift */,
+				414E14B72C58D3CC00580407 /* MorphingSymbolView.swift */,
+				41EA22242C5CF856005B9A84 /* CustomTextField.swift */,
+				415093392C63559B001803FE /* CustomButton.swift */,
+				4150933B2C635DD2001803FE /* Color.swift */,
+				410FDA072C64FAE2006904D3 /* mapView.swift */,
+				41FB484C2C6625D100EB0CE2 /* ImagePicker.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		41C293772C623F3300A078D7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				41C2937A2C62410A00A078D7 /* DownloaderClient.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		41C2937E2C62463800A078D7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				41C2937C2C6243CE00A078D7 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CA7F4776335B31980BEC9DE3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2CB25EA549EBEAC17CA4FAF1 /* Pods-Eryaz.debug.xcconfig */,
+				4D3C674B5C40F22850B879A0 /* Pods-Eryaz.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F4DB987BB9DA57C6E7DD0322 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E2F281D6BBAF586308604A0 /* Pods_Eryaz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +197,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 414E14AE2C58CE2B00580407 /* Build configuration list for PBXNativeTarget "Eryaz" */;
 			buildPhases = (
+				0A95C54FEF9ADCAE07F21860 /* [CP] Check Pods Manifest.lock */,
 				414E149C2C58CE2A00580407 /* Sources */,
 				414E149D2C58CE2A00580407 /* Frameworks */,
 				414E149E2C58CE2A00580407 /* Resources */,
+				857FBA5061BBD0347737B2CD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,18 +252,79 @@
 			files = (
 				414E14AB2C58CE2B00580407 /* Preview Assets.xcassets in Resources */,
 				414E14A82C58CE2B00580407 /* Assets.xcassets in Resources */,
+				4170FC112C65FA3E00079BDF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A95C54FEF9ADCAE07F21860 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eryaz-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		857FBA5061BBD0347737B2CD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eryaz/Pods-Eryaz-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eryaz/Pods-Eryaz-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eryaz/Pods-Eryaz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		414E149C2C58CE2A00580407 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				414E14A62C58CE2A00580407 /* ContentView.swift in Sources */,
+				41EA22252C5CF856005B9A84 /* CustomTextField.swift in Sources */,
+				41C2937D2C6243CE00A078D7 /* HomeViewModel.swift in Sources */,
+				4150933A2C63559B001803FE /* CustomButton.swift in Sources */,
+				41E61C852C60A5FE00311861 /* SignUpView.swift in Sources */,
+				417B3C212C5B9F3400D65767 /* DetailView.swift in Sources */,
+				41C2937B2C62410A00A078D7 /* DownloaderClient.swift in Sources */,
+				41442F102C60B736007D33AF /* SupportView.swift in Sources */,
+				414E14B82C58D3CC00580407 /* MorphingSymbolView.swift in Sources */,
+				410FDA082C64FAE2006904D3 /* mapView.swift in Sources */,
+				41C293792C623FB400A078D7 /* Model.swift in Sources */,
+				41BC8BD62C5BBAE200F21EDB /* MenuView.swift in Sources */,
+				4150933C2C635DD2001803FE /* Color.swift in Sources */,
+				41BC8BD82C5BBD0C00F21EDB /* PersonView.swift in Sources */,
+				414E14B62C58D2A300580407 /* IntroView.swift in Sources */,
+				41BCD0DB2C5A0CD80038E025 /* HomeView.swift in Sources */,
+				41EA221F2C5CB977005B9A84 /* UrlModel.swift in Sources */,
 				414E14A42C58CE2A00580407 /* EryazApp.swift in Sources */,
+				41FB484D2C6625D100EB0CE2 /* ImagePicker.swift in Sources */,
+				414E14B42C58CE7300580407 /* Page.swift in Sources */,
+				41EA22232C5CF825005B9A84 /* SignInView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +452,7 @@
 		};
 		414E14AF2C58CE2B00580407 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CB25EA549EBEAC17CA4FAF1 /* Pods-Eryaz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -274,7 +461,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Eryaz/Preview Content\"";
 				DEVELOPMENT_TEAM = WPPF9Y8987;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eryaz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -295,6 +484,7 @@
 		};
 		414E14B02C58CE2B00580407 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D3C674B5C40F22850B879A0 /* Pods-Eryaz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -303,7 +493,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Eryaz/Preview Content\"";
 				DEVELOPMENT_TEAM = WPPF9Y8987;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Eryaz/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
